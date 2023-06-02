@@ -1,6 +1,8 @@
+/******************************************************/
+
 class Solution {
 public:
-    int minCost(int n, vector<int>& cuts) {
+    int minCost(int n, vector<int>& cuts) {   
         cuts.push_back(0);
         cuts.push_back(n);
         sort(cuts.begin(), cuts.end());
