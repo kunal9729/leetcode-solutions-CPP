@@ -1,6 +1,7 @@
 //************************************************************************//
 //************************************************************************//
-class Solution {
+class Solution 
+{
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
         int n = grid.size();
